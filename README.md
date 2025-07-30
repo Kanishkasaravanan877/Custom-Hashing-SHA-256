@@ -2,14 +2,15 @@
 Name: KANISHKA S
 
 Ojective
-
 A custom hash function that returns a fixed 32-character hash, and compare it with SHA-256.
 
 Algorithm Logic
-
 Uses ASCII conversion
+
 Multiplies by index + 1
+
 Applies modulo for mixing
+
 Compresses into 32-character hex output
 
 Sample Output Table
@@ -24,8 +25,10 @@ longer input string for testing         0b1c271814051e4014351a221c3a5b4e        
 
 
 Comparison
-
 Same input → Same hash ✔️
+
 Small change → Very different hash ✔️
+
 SHA-256 is cryptographically stronger
+
 Custom hash is simpler, educational
