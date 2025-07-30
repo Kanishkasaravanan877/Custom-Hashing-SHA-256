@@ -1,8 +1,8 @@
-# 🔐 Custom Hashing (SHA-256 Comparison)
+#  Custom Hashing (SHA-256 Comparison)
 
-## 👤 Name: KANISHKA S
+##  Name: KANISHKA S
 
-## 🎯 Objective
+##  Objective
 
 Build a **custom hash function** that:
 - Returns a **fixed 32-character hash**
@@ -12,21 +12,20 @@ This project demonstrates hashing fundamentals through a simplified educational 
 
 ---
 
-## 🧠 Algorithm Logic – Custom Hash Function
+##  Algorithm Logic – Custom Hash Function
 
 The custom hashing logic is designed to be **lightweight** and **easy to understand**, focusing on how hashes can be generated:
 
-### 🔄 Steps:
+###  Steps:
 1. **Convert input characters to ASCII values**
 2. **Multiply each ASCII value by its index + 1** (to introduce positional weight)
 3. **Apply modulo operations** to mix values (e.g., modulo 256)
 4. **Compress & pad results** into a final **32-character hexadecimal** string
 
-> ⚠️ This hash is **not secure** for real-world cryptography but good for learning!
 
 ---
 
-## 🧪 Sample Output Table
+##  Sample Output Table
 
 | Input                       | Custom Hash                        | SHA-256 (first 32 chars)             |
 |----------------------------|-------------------------------------|--------------------------------------|
@@ -38,7 +37,7 @@ The custom hashing logic is designed to be **lightweight** and **easy to underst
 
 ---
 
-## 🔍 Comparison Summary
+##  Comparison Summary
 
 | Criteria                     | Custom Hash                  | SHA-256                      |
 |-----------------------------|------------------------------|------------------------------|
