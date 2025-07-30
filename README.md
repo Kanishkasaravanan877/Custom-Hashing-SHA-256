@@ -4,7 +4,9 @@ Name: KANISHKA S
 Ojective
 A custom hash function that returns a fixed 32-character hash, and compare it with SHA-256.
 
+
 Algorithm Logic
+
 Uses ASCII conversion
 
 Multiplies by index + 1
@@ -12,6 +14,8 @@ Multiplies by index + 1
 Applies modulo for mixing
 
 Compresses into 32-character hex output
+
+
 
 Sample Output Table
 
@@ -24,7 +28,10 @@ TeSt0987!@#                             5408374c2e330434063a5e0000000000        
 longer input string for testing         0b1c271814051e4014351a221c3a5b4e        62921d9f46268b5bdc49a3c2d5193622
 
 
+
+
 Comparison
+
 Same input → Same hash ✔️
 
 Small change → Very different hash ✔️
